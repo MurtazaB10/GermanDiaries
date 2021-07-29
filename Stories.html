@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Stories Page</title>
+    <style>
+        .card p {
+            text-align: justify;
+        }
+
+        .card {
+            background-color: beige;
+        }
+
+        .main-div2 {
+            display: grid;
+        }
+
+        .bucket2 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body onload="load2()">
+
+    <!-- -------loader--------- -->
+    <div class="main-div2">
+        <div class="center-div">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="bucket2">
+        <!-- Scroll-up btn -->
+        <div class="scroll-up-btn">
+            <i class="fas fa-angle-up"></i>
+        </div>
+
+        <!-- left side navbar -->
+        <div class="navleft">
+            <nav class="nav flex-column">
+                <div class="wrapper">
+                    <a class="nav-link active" aria-current="page" href="index.html"><i class="fas fa-home"></i></a>
+                </div>
+                <div class="wrapper">
+                    <a class="nav-link" href="Puzzles.html"><i class="fas fa-puzzle-piece"></i></a>
+                </div>
+                <!-- <div class="wrapper">
+                <a class="nav-link" href="GermanLiterature.html"><i class="fas fa-pen-fancy"></i></a>
+            </div> -->
+                <div class="wrapper">
+                    <a class="nav-link" href="Stories.html"><i class="fas fa-book-reader"></i></a>
+                </div>
+                <div class="wrapper">
+                    <a class="nav-link" href="index.html"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="wrapper">
+                    <a class="nav-link" href="https://www.instagram.com/german_diaries_/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Home section -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid d-flex align-items-center justify-content-center">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo2.svg" alt="" class="d-inline-block align-text-top">
+                    <h1 class="d-inline-block heading">German Diaries</h1>
+                </a>
+            </div>
+        </nav>
+
+        <!-- image gallery -->
+        <div class="dhead overflow-hidden w-75 m-auto">
+            <h1 class="head">Panchtantra Stories</h1>
+        </div>
+        <div class="card w-75 m-auto mt-5">
+            <div class="card-body">
+                <h5 class="card-title fw-bold fs-3">1. Der Tagträumer </h5>
+                <p class="card-text fs-md-5">Einmal ein fauler Mann hing seine Milchkanne über seinem Kopf und fängt
+                    davon zu träumen. Mit dieser Milchkanne werde ich Jogurt machen. Dann werde ich den Joghurt
+                    verkaufen um mehr Joghurt zu kaufen. Werde ich dann Butter aus Joghurt machen und damit viel Geld
+                    verdienen. Dann werde ich viele Elefanten kaufen. Ich werde dann die Elefanten verkaufen und kaufe
+                    viel Gold und Schmuck. Ich werde die Tochter eines reichen Kaufmanns heiraten. Dann werden wir ein
+                    Kind bekommen. Was wäre, wenn das Kind sehr frech ist? Was wäre, wenn er auf mich nicht höre?
+                    Während das trat er seine Hand gegen die Milchkanne über seinem Kopf. Die ganze Milch in die Kanne
+                    fiel über ihn. Er wachte auf und erkannte dass, es nur ein Traum war und nun gab es auch keine
+                    Milch.</p>
+                <p class="card-text fs-md-5">Die Moral von der Geschichte : Bauen keine Luftschlössern </p>
+            </div>
+        </div>
+        <div class="card w-75 m-auto mt-5">
+            <div class="card-body">
+                <h5 class="card-title  fw-bold fs-3">2. Die Bauerns Frau und der Mungo</h5>
+                <p class="card-text fs-md-5 fs-sm-6">An einem schönen Tag verließ eine Frau ihr Haustier Mungo, um sich
+                    um ihr Kind zu kümmern, während sie auf dem Markt ging. Sie sagte der Mungo sich um das Baby zu
+                    kümmern. Während sie weg war, kam eine Schlange ins Haus. Der Mungo tötete die Schlange, weil sie
+                    das Baby bissen wollte. Als die mutter kam nach Hause zurück, sah sie das Blut im Mungos Mund. Sie
+                    dachte, dass er das Baby verletzt hat. Sie jagte ihm weg. Aber als sie sah, dass das Baby ok war und
+                    eine töte Schlange lag in der nähe, war sie traurig. „Wie dumm war ich? Ich hätte nicht zu schnell
+                    beurteilen.” Aber es war sinnlos jetzt.
+                </p>
+                <p class="card-text fs-md-5 fs-sm-6">Die Moral von der Geschichte : Man darf nicht vorschnell urteilen.
+                </p>
+            </div>
+        </div>
+
+        <!-- ----footer----------- -->
+        <footer class="foot f bg-light">
+            <a class="brand" href="index.html">
+                <img src="img/logo2.svg" alt="" class="d-inline-block align-text-top">
+                <h1 class="d-inline-block">German Diaries</h1>
+            </a><br>
+            <a href="https://www.instagram.com/german_diaries_/" target="_blank" class="main-a"><i
+                    class="fab fa-instagram"></i></a>
+            <p>Content By: Apurva, Design By: A.M.Designers <i class="far fa-copyright"></i> <span id="year"></span>.
+                All rights reserved.
+            </p>
+        </footer>
+    </div>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
